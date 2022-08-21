@@ -1,0 +1,140 @@
+.dashboard-container {
+  display: flex;
+  width: 100% !important;
+  padding: 30px;
+}
+.dashboard-container .tab-content {
+  display: flex;
+}
+
+.table_body_profile {
+  width: 100%;
+  height: 100vh !important;
+}
+
+.rbc-calendar {
+  height: 400px !important;
+}
+
+#Profile_Request {
+  width: 100% !important;
+}
+
+.active {
+  color: #47af0d !important;
+}
+
+#Photo_Request {
+  width: 100% !important;
+}
+
+#incomplete_registration {
+  width: 100% !important;
+}
+
+.col-md-4 {
+  padding: 10px;
+}
+.makeStyles-page-1 {
+  padding: 0 20px;
+}
+.Profile_request {
+  background-color: rgba(255, 255, 255, 1);
+  border: 2px solid #f0f0f0;
+  border-radius: 25px;
+  height: 100vh;
+  /* width: 750px; */
+  /* position: relative;
+  right: 20px; */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.booking_calander {
+  background-color: rgba(255, 255, 255, 1);
+  border: 2px solid #f0f0f0;
+  border-radius: 25px;
+  height: 600px;
+  width: 100%;
+  flex: 1;
+  /* position: relative;
+  right: 60px; */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.dashboard_tab {
+  width: 100% !important;
+  flex: 1;
+  /* position: absolute;
+  left: 30px;
+  top: 10px; */
+  /* width: 500px; */
+}
+
+.box_Profile_request {
+  /* position: absolute;
+  top: 10px;
+  left: 10px; */
+}
+.calender-text {
+}
+.pro_imggg {
+  width: 120px !important;
+  word-break: break-all;
+  display: flex;
+}
+
+.calender-main {
+  /* width: 100%; */
+  width: 30%;
+}
+
+.profile_table {
+  /* width: 100%; */
+}
+
+.table_body_profile {
+}
+
+.table_body_profile .css-rorn0c-MuiTableContainer-root {
+  /* overflow-x: unset; */
+}
+.dummy_img {
+  width: 45px;
+}
+
+.profile_table tr td {
+  border-bottom: none !important;
+}
+
+.table-borderless_profile {
+  /* position: relative;
+  right: 30px; */
+  /* width: 750px; */
+  max-height: 350px;
+  /* overflow: auto; */
+}
+
+.table_photo {
+  /* position: relative; */
+  /* right: 30px; */
+  /* width: 900px; */
+  /* height: 350px; */
+  /* overflow: auto; */
+}
+.table_body_profile {
+  margin: 0 10px;
+}
+.dashboard_tab {
+  width: 100%;
+  padding: 0 20px;
+}
+
+.makeStyles-page-1 {
+  margin: 0;
+}

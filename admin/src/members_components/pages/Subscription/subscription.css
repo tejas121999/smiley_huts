@@ -1,0 +1,146 @@
+.active_Plan {
+  background-color: rgba(255, 255, 255, 1);
+  border: 2px solid #f0f0f0;
+  border-radius: 25px;
+  /* // border-width: 100px; */
+  /* color: green; */
+  height: 600px;
+  width: 501px;
+  /* // max-width: 1301px; */
+  box-shadow: 0px 23px 32px rgba(5, 51, 112, 0.05);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  left: 15%;
+  top: 70px;
+  /* // width: 50%; */
+}
+
+.subscription-main-class-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../../layout/images/login_background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 1
+}
+
+.sub-container-more-plans {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media only screen and (max-width: 900px) {
+  .sub-container-more-plans {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .subscription-main-class-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../layout/images/login_background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 160vh;
+    width: 1
+  }
+}
+
+/* .credentials {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../../layout/images/login_background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 1 */
+
+.skip-button {
+  width: 80px;
+  position: absolute;
+  top: 130px;
+  align-self: end;
+  margin-right: 45px;
+}
+
+.add_Plan {
+  border: 2px solid #000000;
+  border-radius: 25px;
+  height: 500px;
+  width: 350px;
+  box-shadow: 0px 23px 32px rgba(5, 51, 112, 0.05);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  left: 800px;
+  top: 125px;
+}
+
+.hidden-button {
+  display: none;
+}
+
+@media only screen and (max-width: 500px) {
+  .hidden-button {
+    display: flex;
+  }
+}
+
+.active_text {
+  /* background-color: rgb(215, 115, 245); */
+  background: green;
+  /* border: 2px solid rgb(215, 115, 245); */
+  border-radius: 25px;
+  width: 150px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  position: absolute;
+  top: 50px;
+}
+
+.monthly {
+  font-size: 35px;
+  font-weight: 600;
+  position: absolute;
+  top: 100px;
+}
+
+.Dummy {
+  font-size: 25px;
+  font-weight: 400;
+  padding: 5px;
+  position: relative;
+  top: 20px;
+}
+
+.Edit_plan {
+  width: 150px;
+  height: 50px;
+  position: absolute;
+  bottom: 50px;
+}
+
+.add_plan {
+  width: 200px;
+}
+
+.create_plan {
+  font-size: 20px;
+  font-weight: 600;
+}

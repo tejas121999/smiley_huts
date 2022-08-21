@@ -1,0 +1,57 @@
+.campaigns {
+  background-color: rgba(255, 255, 255, 1);
+  border: 2px solid #f0f0f0;
+  border-radius: 25px;
+  /* // border-width: 100px; */
+  height: 90vh;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding: 20px;
+  /* // max-width: 1301px; */
+  box-shadow: 0px 23px 32px rgba(5, 51, 112, 0.05);
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-direction: column;
+  /* position: relative; */
+  /* // left: 5%; */
+  /* top: 10px;
+  margin-top: 47px; */
+  /* // width: 50%; */
+}
+
+.campaigns_tab {
+  /* position: relative;
+  bottom: 230px;
+  left: 10px; */
+  height: 100%;
+  /* width: 98%; */
+}
+
+.nav-tabs {
+  border: 1px solid transparent;
+}
+
+.nav-link {
+  border: 0px;
+}
+
+.CampaignsDraft {
+  /* position: absolute; */
+  width: 100%;
+  /* max-height: 600%; */
+  overflow: auto;
+}
+
+.gestHostedTable tr td {
+  border-bottom: none !important;
+}
+
+.gestHostedTable tr th {
+  border-bottom: none !important;
+}
+
+.campaignsTable {
+  /* width: 500px; */
+}

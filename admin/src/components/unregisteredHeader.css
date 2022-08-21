@@ -1,0 +1,30 @@
+.unregistered-main {
+  height: 4rem;
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 80px;
+}
+
+.nav-items ul {
+  display: flex;
+  width: 300px;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-link {
+  width: max-content;
+  height: max-content;
+}
+.nav-items li {
+  cursor: pointer;
+}
+
+.nav-items a {
+  text-decoration: none;
+  color: black;
+}

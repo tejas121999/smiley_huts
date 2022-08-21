@@ -1,0 +1,133 @@
+.myStay {
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    background-color: rgb(253, 253, 253);
+    /* border: 2px solid black; */
+    /*margin: 12px;
+    width: 90%;
+    height: 250px;*/
+    /*border-radius: 15px;*/
+}
+
+.stay_profie_img {
+    width: 70px;
+    border-radius: 50px;
+    /*position: relative;
+    right: 25%;
+    top: 30px;*/
+}
+
+.stay_profile {
+    /*position: relative;
+    right: 23.5%;
+    top: 20px;*/
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.Stay_host {
+    /*position: relative;
+    right: 31%;
+    top: 45px;*/
+    color: gray;
+}
+
+.completde {
+    background-color: green;
+    color: white;
+    padding: 5px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.Stay_date {
+    font-size: 25px;
+    font-weight: 650;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 15px;
+}
+
+.view_my_reating {
+    /*position: relative;
+    top: 70px;
+    right: 40%;*/
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.btn_class {
+    position: relative;
+    top: 35px;
+    left: 36.5%
+}
+
+.view_HomeSaty {
+    width: 150px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.Book_again {
+    width: 150px;
+    height: 50px;
+}
+
+.my-stay-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 1em;
+}
+
+.mobile-view-my-stay-card {
+    display: none;
+}
+
+@media only screen and (max-width: 900px) {
+    .mobile-view-my-stay-card {
+        display: block !important;
+        background-color: #ffffff;
+        border-radius: 10px;
+        width: -webkit-fill-available;
+        height: 300px;
+    }
+
+    .my-stay-div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .my-stay-card {
+        display: none !important;
+    }
+
+    .myStay {
+        display: flex;
+    }
+
+    .my-stay-div-one {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 15px;
+    }
+
+    .my-stay-img-name {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .bottom_button {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 20px;
+    }
+}

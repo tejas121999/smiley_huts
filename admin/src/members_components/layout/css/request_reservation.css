@@ -1,0 +1,330 @@
+.Guest_Request_Reservation_tab {
+  /*margin-left: 60px;*/
+  min-height: 58vh;
+}
+
+.Reservation_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.reservation_main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  /*height: 100px;*/
+  padding: 15px;
+  /*width: 94%;*/
+  border-radius: 15px;
+  background-color: rgb(255, 255, 255);
+}
+
+.Reservation_img {
+  width: 70px;
+  border-radius: 50px;
+  /*margin-right: 90%;*/
+  /*margin-top: 15px;*/
+}
+
+.Reservation_name {
+  /*text-align: left;*/
+  /*margin-left: 130px;*/
+  /*position: relative;*/
+  /*bottom: 80px;*/
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.Reservation_number {
+  /*position: relative;*/
+  /*bottom: 95px;*/
+  /*right: 37%;*/
+  font-size: 18px;
+  font-weight: 600;
+  color: #0e9c0c;
+}
+
+.Reservation_date {
+  /*position: relative;*/
+  /*bottom: 168px;*/
+  /* text-align: end; */
+  font-size: 32px;
+  font-weight: 700;
+  /*left: 39%;*/
+}
+
+.Guest_Request {
+  display: flex;
+  flex-direction: column;
+}
+
+.Guest_Request_main {
+  /*height: 180px;*/
+  /*margin: 15px;*/
+  /*width: 94%;*/
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  background-color: rgb(255, 255, 255);
+}
+
+.Viwe_Guest_Details_text {
+  /*position: relative;*/
+  /*bottom: 150px;*/
+  /*right: 38%;*/
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.Message_Guest {
+  width: 176px;
+  height: 48px;
+  /*position: relative;*/
+  /*bottom: 214px;*/
+  /*left: 30%;*/
+}
+
+.btn-light {
+  background-color: rgb(218, 218, 218);
+}
+
+.Decline_Guest {
+  /*position: relative;*/
+  /*bottom: 119%;*/
+  width: 153px;
+  height: 45px;
+  /*left: 31%;*/
+}
+
+.Accept_guest {
+  /*position: relative;
+    bottom: 119%;*/
+  height: 46px;
+  width: 144px;
+  /*left: 32%;*/
+}
+
+.request_reservation_modal .modal-dialog {
+  max-width: 1000px !important;
+}
+
+.request_reservation_modal .modal-content {
+  height: 600px;
+  border-radius: 15px;
+}
+
+.guest_booking_modal .modal-dialog {
+  max-width: 1000px !important;
+}
+
+.guest_booking_modal .modal-content {
+  height: 520px;
+  border-radius: 15px;
+}
+
+.request_reservation_body {
+  display: flex;
+  flex-direction: column;
+}
+
+.guest_req_img {
+  width: 100px;
+  border-radius: 50px;
+  /*margin-top: 20px;
+    margin-left: 50px;*/
+}
+
+.guest_req_name {
+  font-size: 35px;
+  font-weight: 600;
+  /*margin-left: 1px;
+    position: relative;
+    top: 30px;
+    right: 60px;*/
+}
+
+.Location_class {
+  font-size: 20px;
+  /*position: relative;
+    bottom: 10px;
+    left: 20px;*/
+  color: gray;
+}
+
+.guest_req_text {
+  font-size: 20px;
+  color: gray;
+  /*position: relative;
+    bottom: 10px;
+    left: 204px;*/
+}
+
+.guest_req_date {
+  /*margin-left: 20px;*/
+  font-size: 30px;
+  font-weight: 600;
+  /*position: relative;*/
+  /*top: 30px;*/
+}
+
+.home_img {
+  width: 60px;
+  /*margin-left: 35px;*/
+}
+
+.phone_img {
+  width: 60px;
+  /*margin-left: 35px;
+    margin-top: 10px;*/
+}
+
+.location_img {
+  width: 60px;
+  /*margin-left: 35px;
+    margin-top: 10px;*/
+}
+
+.Property_type {
+  font-size: 20px;
+  font-weight: 600;
+  /*position: absolute;
+    top: 195px;*/
+}
+
+.Bunglow {
+  /*position: absolute;
+    top: 220px;*/
+}
+
+.prop_add {
+  font-size: 21px;
+  font-weight: 600;
+}
+
+.prop_add_text {
+  font-size: 15px;
+}
+
+.contact_reserv_number {
+  font-size: 20px;
+  font-weight: 600;
+  /*position: absolute;
+    top: 281px;*/
+}
+
+.number_reserv {
+  /*position: absolute;
+    top: 310px*/
+}
+
+.email_address {
+  font-size: 21px;
+  font-weight: 600;
+  /*margin-top: 10px;*/
+}
+
+.email_add_text {
+  font-size: 15;
+}
+
+.street_code {
+  /*position: absolute;*/
+  font-size: 20px;
+  font-weight: 600;
+  /*top: 375px;*/
+}
+
+.street_code_text {
+  /*position: absolute;
+    top: 400px;*/
+}
+
+.landmark_reserv {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.request_reservation_midd {
+}
+
+.resv_col_6 {
+  /*margin-top: 25px;*/
+}
+
+.resv_row {
+  /*margin-left: 20px;*/
+}
+
+.request_reservation_bottom {
+  /*margin-left: 421px;
+        margin-top: 20px;*/
+}
+
+.Message_reserv {
+  width: 165px;
+  height: 60px;
+}
+
+.decline_reserv {
+  width: 165px;
+  height: 60px;
+}
+
+.Accept_reserv {
+  width: 165px;
+  height: 60px;
+}
+
+.edit-modal .modal-dialog {
+  display: flex;
+  justify-content: center;
+}
+
+.edit-modal .modal-content {
+  /* background: black; */
+  width: 1200px !important;
+  height: max-content;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.guest_booking_body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.guest-request-nav {
+  background-color: transparent !important;
+}
+
+.guest-request-nav .nav {
+  background-color: transparent !important;
+}
+
+.guest-request-nav .nav-link {
+  font-size: 20px;
+}
+
+.guest-request-nav .nav-link.active {
+  background-color: transparent !important;
+  font-size: 24px;
+}
+
+.edit-modal-main {
+  display: flex;
+  justify-content: center;
+}
+
+.edit-modal-buttons {
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-between;
+  padding: 0 15px;
+}
+.edit-modal-buttons button {
+  height: 45px;
+  width: 48%;
+}

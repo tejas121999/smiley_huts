@@ -1,0 +1,176 @@
+.active_Plan {
+  background-color: rgba(255, 255, 255, 1);
+  border: 2px solid #f0f0f0;
+  border-radius: 25px;
+  /* // border-width: 100px; */
+  height: 600px;
+  width: 501px;
+  /* color: green; */
+  /* // max-width: 1301px; */
+  box-shadow: 0px 23px 32px rgba(5, 51, 112, 0.05);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  left: 15%;
+  top: 70px;
+  /* // width: 50%; */
+}
+
+.add_Plan {
+  border: 2px solid #000000;
+  border-radius: 25px;
+  height: 500px;
+  width: 350px;
+  box-shadow: 0px 23px 32px rgba(5, 51, 112, 0.05);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  left: 800px;
+  top: 125px;
+}
+
+.active_text {
+  /* background-color: rgb(215, 115, 245); */
+  background: green;
+  border: 2px solid rgb(215, 115, 245);
+  border-radius: 25px;
+  width: 150px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  position: absolute;
+  top: 50px;
+}
+
+.monthly {
+  font-size: 35px;
+  font-weight: 600;
+  position: absolute;
+  top: 100px;
+}
+
+.Dummy {
+  font-size: 25px;
+  font-weight: 400;
+  padding: 5px;
+  position: relative;
+  top: 20px;
+}
+
+.Edit_plan {
+  width: 150px;
+  height: 50px;
+  position: absolute;
+  bottom: 50px;
+}
+
+.add_plan {
+  width: 200px;
+}
+
+.create_plan {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.subscription_tab {
+  /* margin-top: 20px; */
+  padding: 20px;
+}
+
+.AllSubscription {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+}
+
+.AllSubscription-div {
+  height: 300px;
+  width: 250px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 1);
+  border: 2px solid #f0f0f0;
+  box-shadow: 0px 23px 32px rgba(5, 51, 112, 0.05);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  /* padding: 20px; */
+  margin-top: 20px;
+}
+
+.subscription-input {
+  margin-top: 10px;
+}
+
+.subscription-select-input {
+  height: 50px;
+  margin-top: 28px
+}
+
+.subscription-form {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  justify-content: space-between;
+}
+
+.subscription-form-div {
+  display: flex;
+  flex-direction: row;
+}
+
+.AllSubscription-btn {
+  display: flex;
+  flex-direction: row;
+}
+
+.delete-model-text {
+  font-size: 20px;
+  font-weight: 600;
+  color: red;
+}
+
+.btn-btn-delete-model {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+}
+
+.Active-plan {
+  border-radius: 10px;
+  background-color: rgb(18, 194, 6);
+  border: 2px solid #ffffff;
+  width: 100px;
+  color: #f0f0f0;
+  text-align: center
+}
+
+.De-Active-plan {
+  border-radius: 10px;
+  background-color: rgb(194, 6, 6);
+  border: 2px solid #ffffff;
+  width: 100px;
+  color: #f0f0f0;
+  text-align: center
+}
+
+.plan-description {
+  text-align: center;
+  font-size: 18px
+}
+
+.subscription-price-duration {
+  font-size: 20px;
+  font-weight: 600;
+}

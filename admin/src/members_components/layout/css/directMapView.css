@@ -1,0 +1,155 @@
+.Direct_map_view {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Input_fields {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    width: 1000px;
+    background-color: rgb(149, 140, 140, 0.4);
+    /* Fallback color */
+    background-color: rgba(242, 237, 237, 0.4);
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 320px;
+}
+
+.direct_map_title {
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 60px;
+}
+
+.Ontario {
+    margin: 10px;
+    margin-top: 21px;
+    height: 60px;
+}
+
+.Start_Date {
+    margin: 10px;
+    margin-top: 21px;
+    height: 60px;
+}
+
+.End_Date {
+    margin: 10px;
+    margin-top: 21px;
+    height: 60px;
+}
+
+.search_button {
+    margin: 10px;
+    margin-top: 21px;
+    height: 60px;
+}
+
+.map_Img {
+    width: 100%;
+}
+
+.search_result_div {
+    display: flex;
+    flex-direction: row;
+    margin-top: 150px;
+    margin-bottom: 80px;
+}
+
+.Search_result_text {
+    font-size: 35px;
+    position: absolute;
+    left: 10%;
+    font-weight: 600;
+}
+
+.btn_search_btn {
+    margin-left: 1114px;
+}
+
+.search_card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card_main {
+    background-color: azure;
+    margin: 10px;
+    height: 385px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* .card_img {
+    width: 400px;
+    height: 215px;
+} */
+
+.card_title_text {
+    margin-right: 70%;
+    margin-top: 5px;
+}
+
+.card_title_address {
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 75px;
+    position: relative;
+    bottom: 15px;
+}
+
+.card_title_rating {
+    margin-right: 335px;
+    position: relative;
+    bottom: 30px;
+}
+
+.card_title_rating_star {
+    margin-right: 165px;
+    position: relative;
+    bottom: 68px;
+}
+
+.see_details_btn {
+    width: 300px;
+    margin-right: 7px;
+    right: 20px;
+    position: relative;
+    bottom: 65px;
+    font-size: 20px;
+}
+
+.see_details_map_img {
+    position: relative;
+    bottom: 66px;
+    width: 45px;
+}
+
+.bottom_card {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    background-color: rgb(241, 240, 240);
+    height: 100%;
+    padding-left: 57px;
+    padding-right: 57px;
+}
+
+.bottom_card_body {
+    height: 100px;
+    width: 113px;
+    margin: 15px;
+}
+
+.bottom_card_img {}
+
+.you_may_also_want_see_title {
+    font-size: 40px;
+    text-align: initial;
+    font-weight: 600;
+    margin-top: 50px;
+}

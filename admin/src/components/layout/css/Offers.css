@@ -1,0 +1,182 @@
+.Offers {
+  background-color: rgba(255, 255, 255, 1);
+  border: 2px solid #f0f0f0;
+  border-radius: 25px;
+  /* // border-width: 100px; */
+  height: 600px;
+  /*width: 1301px;*/
+  /* // max-width: 1301px; */
+  box-shadow: 0px 23px 32px rgba(5, 51, 112, 0.05);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* position: relative; */
+  /* // left: 5%; */
+  margin-top: 50px;
+
+  /* // width: 50%; */
+  /* // width: 50%; */
+}
+
+/* .offer_button {
+  height: 30px;
+  width: 100px;
+} */
+
+.offers_tab {
+  position: absolute;
+  top: 160px;
+  width: 80%;
+  height: 30%;
+}
+
+.OffersTable tr td {
+  border-bottom: none !important;
+}
+
+.OffersTable {
+  width: 105px;
+}
+
+.offer_table_man {
+  width: 800px;
+  /* position: relative;
+    left: 20px; */
+}
+
+.offersButton {
+  /* position: absolute;
+    right: 10px; */
+}
+
+.table_cell {
+  position: relative;
+  left: 20px;
+  font-size: px;
+  font-weight: 600;
+}
+
+.create_offer_text {
+  font-size: 20px;
+  position: absolute;
+  top: 85px;
+  left: 14.2%;
+  font-weight: 600;
+}
+
+.create_name {
+  position: absolute;
+  top: 26%;
+  left: 15%;
+}
+
+.create_name_input {
+  width: 80%;
+  position: relative;
+  left: 150px;
+  bottom: 28px;
+  border-color: black;
+}
+
+.create_Desc {
+  position: absolute;
+  top: 35%;
+  left: 15%;
+}
+
+.create_Desc_input {
+  width: 100%;
+  position: relative;
+  left: 150px;
+  bottom: 28px;
+  border-color: black;
+}
+
+.create_offer {
+  position: absolute;
+  top: 45%;
+  left: 15%;
+}
+
+.create_offer_terms_input {
+  width: 140%;
+  height: 100%;
+  position: relative;
+  left: 150px;
+  bottom: 28px;
+  border-color: black;
+}
+
+.offer_enable_checkbox {
+  position: absolute;
+  top: 60%;
+  left: 15%;
+}
+
+.check_enable {
+  position: relative;
+  left: 150px;
+  bottom: 25px;
+}
+
+.check_disable {
+  position: relative;
+  left: 250px;
+  bottom: 50px;
+}
+
+.offer_Recipients_checkbox {
+  position: absolute;
+  top: 65%;
+  left: 15%;
+}
+
+.check_Active {
+  position: relative;
+  left: 150px;
+  bottom: 25px;
+}
+
+.check_Deactivated {
+  position: relative;
+  left: 350px;
+  bottom: 50px;
+}
+
+.check_Custom {
+  position: relative;
+  left: 550px;
+  bottom: 75px;
+}
+
+.text_name {
+  position: relative;
+  left: 90px;
+}
+
+.text_desc {
+  position: relative;
+  left: 55px;
+}
+
+.text_offer {
+  position: relative;
+  left: 50px;
+}
+
+.text_recipients {
+  position: relative;
+  left: 15px;
+}
+
+.offer_enable {
+  position: relative;
+  left: 90px;
+}
+
+.send_offer {
+  position: relative;
+  left: 550px;
+  top: 250px;
+}

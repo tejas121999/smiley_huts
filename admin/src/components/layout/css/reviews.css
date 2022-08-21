@@ -1,0 +1,113 @@
+.reviews_mane {
+  position: relative;
+
+  align-items: center;
+}
+
+.container {
+  margin: 1rem auto;
+}
+
+.mytext {
+  font-size: 20px;
+  font-weight: 600;
+
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.review_table {
+  max-height: 350px;
+}
+
+.imgClass {
+  max-width: 70px;
+  color: gray;
+}
+
+.sample_name {
+  font-size: 25px;
+  font-weight: 600;
+  color: black;
+  /*position: relative;*/
+  /* bottom: 8px; */
+  left: 5px;
+}
+
+.stars {
+  /* position: relative;
+  left: 80px;
+  bottom: 22px; */
+}
+
+.time_date {
+  background-color: rgb(243, 238, 238);
+  width: 90px;
+  height: 20px;
+  font-size: 10px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 221px;
+  bottom: 54px;
+}
+
+.homeImg {
+  width: 65px;
+  border-radius: 10px;
+  /* position: relative;
+  left: 85%;
+  bottom: 110px; */
+}
+
+.image_model_body {
+  width: 800px;
+  height: 700px;
+  /* max-width: none; */
+  /* position: relative; */
+  top: 45px;
+  left: 342px;
+}
+
+.image_model_body .modal-dialog {
+  max-width: none !important;
+  max-height: 850px !important;
+}
+
+.image_model_body .modal-dialog .modal-content {
+  height: 500px;
+  border: 2px solid #f0f0f0;
+  border-radius: 25px;
+}
+
+.next_button {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  background-color: black;
+  position: absolute;
+  top: 105%;
+  left: 60%;
+}
+
+.Previous_button {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  background-color: black;
+  position: absolute;
+  top: 105%;
+  left: 30%;
+}
+
+.home_Model_img {
+  border-radius: 15px;
+  height: 460px;
+  width: 765px;
+}
+
+.dummy_text {
+  /*position: relative;*/
+  bottom: 70px;
+}

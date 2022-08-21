@@ -1,0 +1,33 @@
+.item_list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.notification:hover {
+    text-decoration: underline;
+    font-weight: bold !important;
+}
+
+.listItem {
+    justify-content: center !important;
+}
+
+.makeStyles-drawerContainer-7 {
+   overflow: none;
+}

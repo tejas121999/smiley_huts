@@ -1,0 +1,39 @@
+.carousel-container {
+  height: max-content;
+}
+
+.slide-item {
+  /* margin: 0 10px;
+  /* height: 350px; */
+  /* justify-content: space-evenly;
+  align-items: center;
+  display: flex;
+  flex-direction: row; */
+
+  margin: 0 10px;
+  /* height: 350px; */
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  /* background: aqua; */
+  /* width: 200px; */
+}
+
+.item-img {
+  position: relative;
+  width: 100%;
+}
+
+.item-text {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  height: 15%;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  font-size: 20px;
+  width: 100%;
+  bottom: 0;
+}

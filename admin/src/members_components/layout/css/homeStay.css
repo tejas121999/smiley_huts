@@ -1,0 +1,936 @@
+.home_Stay_detail {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 0;
+}
+
+.home-details-images {
+  display: flex;
+  margin: 0 5rem;
+  height: 80vh;
+}
+
+.home-slider-main {
+  padding: 2rem 3rem;
+  background: rgb(239, 237, 237);
+}
+
+.carousel-container {
+  height: 500px;
+}
+
+.last_img {
+  position: relative;
+  height: 49%;
+  opacity: 0.8;
+}
+
+.home-details-images-left {
+  flex: 3;
+}
+
+.home-details-images-left img {
+  height: 100%;
+  width: 100%;
+}
+
+.home-details-images-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.home-details-images-right img {
+  height: 100%;
+  width: 100%;
+}
+
+.second_img {
+  height: 49%;
+}
+
+.more-images-length {
+  font-size: 30px;
+  font-weight: bold;
+  position: absolute;
+  color: white;
+  left: 50%;
+  transform: translateX(-50%, 0);
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.home_stay_row {
+  width: 95%;
+  margin-left: 40px;
+  margin-top: 70px;
+}
+
+.col_8_class {
+  /* justify-content: center;
+    align-items: center;
+    display: flex; */
+}
+
+.col_4_class {
+  /* justify-content: center;
+    align-items: center;
+    display: flex;    */
+}
+
+.col_8_img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+
+.col_12_img {
+  width: 306%;
+  border-radius: 15px;
+}
+
+.details_reviews {
+  display: flex;
+  flex-direction: row;
+  padding: 0 50px;
+  margin-top: 70px;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .details_reviews {
+    /* padding: 0 20px; */
+    padding: 0 40px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .homeStay_owner_detail {
+    padding: 0 20px;
+    width: 100% !important;
+  }
+
+  .review_by_guest {
+    width: 100% !important;
+    margin: 0 !important;
+    height: 400px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .home-details-images {
+    /* display: flex; */
+    margin: 0 3rem;
+    /* height: 80vh; */
+  }
+
+  .homeStay_owner_detail .Inputfields {
+    flex-direction: column !important;
+    justify-content: space-between;
+    height: 220px;
+  }
+
+  .homeStay_owner_detail .Inputfields .form-control,
+  .homeStay_owner_detail .Inputfields button {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .details_reviews {
+    padding: 0 20px;
+  }
+}
+
+.owner_detail_map_button {
+  width: 80px;
+  height: 75px;
+  /*margin-left: 60%;*/
+  margin-top: 15px;
+}
+
+.homeStay_owner_detail {
+  display: flex;
+  flex-direction: column;
+  /* padding: 0 50px; */
+  /* background-color: black; */
+  width: 65%;
+  /* height: 100px; */
+}
+
+.owner_details_head {
+  display: flex;
+  flex-direction: row;
+}
+
+.owner_detail_body {
+  display: flex;
+  flex-direction: row;
+}
+
+.Left_side_owner_detail {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.Right_side_owner_detail {
+  display: flex;
+  flex-direction: column;
+}
+
+/* propdetails */
+
+.property_details {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  justify-content: space-evenly;
+  align-self: baseline;
+}
+
+.property_details_left_side {
+  display: flex;
+  flex-direction: column;
+}
+
+.property_details_right_side {
+  display: flex;
+  flex-direction: column;
+  margin-left: 280px;
+}
+
+.prop_details_home_img {
+  width: 60px;
+}
+
+.prop_details_phone_img {
+  width: 60px;
+}
+
+.prop_details_location_img {
+  width: 60px;
+}
+
+@media only screen and (max-width: 700px) {
+
+  .prop_details_home_img,
+  .prop_details_phone_img,
+  .prop_details_location_img {
+    width: 50px;
+  }
+
+  .property_details {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .property_details_right_side {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+  }
+
+  .members {
+    display: flex !important;
+    flex-direction: row !important;
+    margin-left: 0px !important;
+  }
+}
+
+.property_details_div {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+
+.phone_Number_div {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+
+.stay_details_icon {
+  font-size: 35px;
+  margin-right: 10px;
+}
+
+@media only screen and (max-width: 700px) {
+
+  .owner_name,
+  .famaly_members_list_text {
+    font-size: 30px !important;
+  }
+
+  .stay_details_icon {
+    font-size: 30px;
+  }
+
+  .property_details_left_side img {
+    /* height: 14px !important; */
+  }
+
+  .property_details_left_side {
+    font-size: 14px;
+  }
+
+  .property_details_right_side {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .home-details-images {
+    /* display: flex; */
+    margin: 0 2rem;
+    /* height: 80vh; */
+  }
+
+  .owner_name,
+  .famaly_members_list_text {
+    font-size: 20px !important;
+  }
+
+  .stay_details_icon {
+    font-size: 20px;
+  }
+
+  .prop_details_home_img,
+  .prop_details_phone_img,
+  .prop_details_location_img {
+    width: 40px !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .pet_members {
+    flex-direction: column !important;
+  }
+
+  .pet {
+    width: 100%;
+  }
+}
+
+.location_div {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+
+.prop_type_text {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.prop_bunglow {
+  /*margin-top: 20px;*/
+  /*position: absolute;*/
+  /*left: 112px;*/
+}
+
+.Phon_num {
+  /*margin-top: 20px;
+    position: absolute;
+    left: 112px;*/
+}
+
+.cont_number {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.street_pin {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.street_pin_text {
+  /*margin-top: 20px;
+    position: absolute;
+    left: 112px;*/
+}
+
+/* =========== */
+.property_add_right_side {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  text-align: initial;
+}
+
+.landmark_right_side {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  text-align: initial;
+}
+
+.email_address_right_side {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  text-align: initial;
+}
+
+.property_add_title {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.email_aaddress_title {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.landmark_title {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+/* ================= */
+
+.pet_members {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-evenly; */
+  margin-top: 15px;
+}
+
+.pet {
+  display: flex;
+  flex-direction: row;
+}
+
+.members {
+  display: flex;
+  flex-direction: row;
+  margin-left: 100px;
+}
+
+.pet_text {
+  margin-top: 10px;
+}
+
+.members_text {
+  margin-top: 10px;
+}
+
+/* ===================== */
+
+.famaly_members_list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /*margin-top: 50px;*/
+  /* justify-content: center; */
+  /*margin-right: 190px;*/
+  /* /* align-items: center; */
+}
+
+.famaly_members_list_text {
+  /*margin-top: 30px;*/
+  font-size: 30px;
+  /*margin-bottom: 30px;*/
+  align-self: flex-start;
+  /*margin-left: 75px;*/
+  font-weight: 600;
+}
+
+.members_div {
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.members_div_img {
+  width: 70px;
+  border-radius: 50px;
+}
+
+.name_relation {
+  display: flex;
+  flex-direction: column;
+  text-align: initial;
+  margin-left: 20px;
+}
+
+.sample_name {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* ================*/
+.Inputfields {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100px;
+  /*width: 830px;*/
+  /* background-color: rgb(149, 140, 140, 0.4); */
+  background-color: rgb(220 220 220 / 40%);
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 15px;
+  /*margin-left: 35px;*/
+}
+
+.start_date {
+  /*margin: 20px;*/
+  /*margin-top: 21px;*/
+  height: 58px;
+  width: 45%;
+  margin-right: 10px;
+}
+
+.end_date {
+  /*margin: 20px;*/
+  /*margin-top: 21px;*/
+  height: 58px;
+  width: 45%;
+  margin-right: 10px;
+}
+
+.book_button {
+  /*position: relative;*/
+  /*margin-top: 36px;*/
+  /*width: 60px;*/
+  /*height: 55px;*/
+  /*bottom: 15px;*/
+  /*left: -13px;*/
+  height: 58px;
+  width: 10%;
+}
+
+/* ================ */
+.review_by_guest {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(214, 214, 214);
+  width: 30%;
+  border-radius: 15px;
+  overflow: auto;
+  /*max-height: 860px;*/
+  /*justify-content: center;*/
+  align-items: center;
+  margin: 1em;
+}
+
+.review_by_guest_title {
+  font-size: 30px;
+  font-weight: 600;
+  padding-left: 10px;
+  /*text-align: initial;*/
+  /*margin-left: 25px;*/
+  /*margin-top: 15px;*/
+}
+
+.review_by_guest_card {
+  /*height: 240px;*/
+  /*width: 330px;*/
+  background-color: whitesmoke;
+  margin: 10px;
+  border-radius: 15px;
+}
+
+.review_card_img {
+  width: 50px;
+  margin-right: 10px;
+  /*margin-top: 25px;*/
+  border-radius: 7px;
+}
+
+.review_card_body {
+  display: flex;
+  flex-direction: column;
+  /*position: relative;*/
+  /*bottom: 50px;*/
+  /*left: 85px;*/
+  /*text-align: initial;*/
+}
+
+.card_para {
+  margin-right: 4px;
+  position: relative;
+  right: 60px;
+  width: 300px;
+}
+
+/* =================== */
+.nearby_stay {
+  background-color: rgb(213, 213, 213);
+  height: 500px;
+  width: 100%;
+}
+
+.nearby_stay_card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.nearby_stay_text {
+  font-size: 35px;
+  font-weight: 600;
+  text-align: initial;
+  margin-top: 50px;
+  margin-bottom: 25px;
+  margin-left: 300px;
+}
+
+.nearby_stay_card_body {
+  height: 350px;
+  width: 250px;
+  background-color: white;
+  margin: 15px;
+}
+
+.card_Previous_button {}
+
+.card_next_button {}
+
+/* =================== */
+.owner_details_Img {
+  width: 100px;
+  border-radius: 50px;
+}
+
+.hosted_by {
+  /*margin-top: 15px;*/
+  font-size: 20px;
+  /*position: absolute;*/
+  /*left: 160px*/
+}
+
+.owner_name {
+  font-size: 35px;
+  font-weight: 600;
+  /*margin-left: 20px;
+    margin-top: 40px;*/
+}
+
+.host_Name_Head {
+  margin-top: 100px;
+  margin-left: 60px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.dummy_img {
+  width: 44%;
+  border-radius: 50%;
+}
+
+.host_by {
+  font-size: 20px;
+  color: gray;
+  position: absolute;
+}
+
+.host_name {
+  font-size: 30px;
+  font-weight: 600;
+  position: absolute;
+  top: 115%;
+  left: 135px;
+}
+
+.map_icon_dark {
+  position: relative;
+  left: 80%;
+  bottom: 90px;
+  width: 70px;
+}
+
+.host_name_body {
+  position: absolute;
+  top: 130%;
+}
+
+.porperty {
+  /* position: relative;
+    bottom: 80px */
+  /* margin-bottom:20px ; */
+}
+
+.prop_img {
+  width: 50px;
+}
+
+.prop_col {
+  position: relative;
+  bottom: 70px;
+  left: 70px;
+}
+
+.prop_text {
+  position: relative;
+  bottom: 10px;
+  left: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.property {
+  position: relative;
+  left: 60px;
+  bottom: 25px;
+}
+
+.phone_img {
+  width: 50px;
+}
+
+.phone_col {
+  position: relative;
+  bottom: 55px;
+  left: 70px;
+}
+
+.phone_text {
+  position: relative;
+  bottom: 10px;
+  left: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.number {
+  position: relative;
+  left: 60px;
+  bottom: 25px;
+}
+
+.location_img {
+  width: 50px;
+}
+
+.locatio_col {
+  position: relative;
+  bottom: 50px;
+  left: 70px;
+}
+
+.location_text {
+  position: relative;
+  bottom: 10px;
+  left: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.street {
+  position: relative;
+  left: 60px;
+  bottom: 25px;
+}
+
+.prop_address {
+  position: relative;
+  bottom: 75px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.prop_address_text {
+  position: relative;
+  bottom: 50px;
+  right: 160px;
+}
+
+.Email_address {
+  position: relative;
+  bottom: 30px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.Email_address_text {
+  position: relative;
+  bottom: 10px;
+  right: 125px;
+}
+
+.landmark {
+  position: relative;
+  top: 15px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.landmark_text {
+  position: relative;
+  top: 40px;
+  right: 90px;
+}
+
+.info_row {
+  position: relative;
+  bottom: 70px;
+  left: 70px;
+}
+
+.pet_img {
+  width: 50px;
+}
+
+.mambers_img {
+  width: 50px;
+}
+
+.pet_text {
+  font-size: 18px;
+}
+
+.member_info_text {
+  font-size: 25px;
+  font-weight: 600;
+  position: relative;
+  bottom: 70px;
+  left: 60px;
+}
+
+.members_div {
+  /*position: relative;
+    bottom: 50px;
+    left: 50px;*/
+}
+
+.col_4_img {
+  /* padding: 10px; */
+  margin: 10px;
+  width: 20%;
+  border-radius: 50%;
+}
+
+.col_4_text {
+  position: relative;
+  bottom: 5px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.relation_text {
+  position: relative;
+  bottom: 40px;
+  left: 95px;
+  font-size: 15px;
+}
+
+.input_field_home_stay {
+  width: 90%;
+  height: 100px;
+  background-color: rgb(233, 231, 231);
+  position: relative;
+  left: 60px;
+  bottom: 60px;
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+}
+
+.input_hom_stay_1 {
+  height: 60px;
+  width: 260%;
+  position: relative;
+  top: 20px;
+  right: 300px;
+}
+
+.input_hom_stay_2 {
+  height: 60px;
+  width: 260%;
+  position: relative;
+  top: 20px;
+  right: 60px;
+}
+
+.input_hom_stay_3 {
+  height: 60px;
+  width: 100%;
+  margin-left: 10px;
+  position: relative;
+  top: 20px;
+}
+
+.book_button {
+  /* align-self: flex-end;
+    position: relative;
+    bottom: 25px;
+    right: 40px;
+    width: 80px;
+    height: 90px; */
+}
+
+.REview_by_gest {
+  margin-top: 80px;
+  position: absolute;
+  right: 60px;
+  height: 870px;
+  width: 30%;
+  background-color: rgb(241, 240, 240);
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.review_text {
+  font-size: 25px;
+  font-weight: 600;
+  position: relative;
+  top: -261px;
+  left: -496px;
+}
+
+.card_div {
+  max-height: 700px;
+  overflow: auto;
+  width: 400px;
+  position: relative;
+  left: 50px;
+  top: 20px;
+}
+
+.card_calss {
+  width: 350px;
+}
+
+.NearBy_HomeStay {
+  background-color: rgb(241, 240, 240);
+  height: 100%;
+  padding-left: 57px;
+  padding-right: 57px;
+}
+
+.scrolling-wrapper {
+  max-width: 100%;
+  width: 100%;
+}
+
+.flex-nowrap {
+  overflow-x: auto;
+}
+
+.card-body {
+  min-height: 330px;
+  min-width: 300px;
+  margin-right: 5px;
+  border-radius: 15px;
+}
+
+.bottom_Image {
+  border-radius: 15px;
+}
+
+.star_Nearby {
+  position: relative;
+  left: 70px;
+  bottom: 22px;
+}

@@ -1,0 +1,582 @@
+.nav {
+  background-color: white;
+}
+
+.bannet_Title {
+  /* position: absolute;
+    top: 70px;
+    right: 29%;*/
+  font-size: 60px;
+}
+
+@media only screen and (max-width: 600px) {
+  .container_box {
+    display: none;
+  }
+
+  .top_text {
+    text-align: left;
+  }
+
+  .location_homepage {
+    font-size: 25px !important;
+    /* text-align: inherit; */
+    font-weight: 600;
+  }
+
+  .bottom_text {
+    font-size: 15px !important;
+  }
+
+  .mobile_div {
+    display: block !important;
+    margin: 10px;
+  }
+
+  .mobile_div_class {
+    display: grid;
+    grid-template-columns: 1fr 1fr !important;
+  }
+}
+
+.mobile_div {
+  display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+  .bannet_Title {
+    font-size: 35px;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .Input_field {
+    flex-direction: column;
+    height: 350px !important;
+    padding: 20px 20px !important;
+  }
+
+  .input_2,
+  .input_3,
+  .Input_field button {
+    width: 100% !important;
+  }
+
+  .banner_Img {
+    height: 500px;
+  }
+
+  .banner_Img img {
+    height: 100%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .Input_field {
+    width: 80% !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .Input_field {
+    width: 90% !important;
+  }
+}
+
+.home_Page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav_header {
+  -webkit-box-shadow: 0 4px 6px -6px rgb(75, 75, 75);
+  -moz-box-shadow: 0 4px 6px -6px rgb(73, 72, 72);
+  box-shadow: 0 4px 6px -6px #222;
+}
+
+.nav-item {
+  /*position: relative;*/
+  /*top: 2px;*/
+  /*right: 50px;*/
+  /*margin: 20px;*/
+  display: flex;
+  font-size: 20px;
+}
+
+.nav-link {
+  color: black;
+}
+
+.header-right-li {
+  align-items: center;
+}
+
+.avatar {
+  position: absolute;
+  /*left: 5px;*/
+  top: 2px;
+}
+
+.banner_Img {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  text-align: center;
+}
+
+.Input_field {
+  /* Add the blur effect */
+
+  background-color: rgb(149, 140, 140, 0.4);
+  /* Fallback color */
+  background-color: rgba(242, 237, 237, 0.4);
+  /* Black w/opacity/see-through */
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  border-color: rgba(111, 111, 111, 0.2) transparent transparent;
+  height: 100px;
+  border-radius: 10px;
+  /*width: 1100px;*/
+  /*position: absolute;*/
+  /*top: 200px;*/
+  width: 70%;
+  padding: 0 20px;
+  /*left: 250px;*/
+  align-items: center;
+  display: flex;
+}
+
+.input_Row {
+  margin: 10px;
+}
+
+.input_1 {
+  /*width: 105%;*/
+  height: 60px;
+  width: 60%;
+  font-size: 20px;
+}
+
+.homestay-listing-outer-div {
+  padding: 0 6rem;
+}
+
+@media only screen and (max-width: 800px) {
+  .homestay-listing-outer-div {
+    padding: 0rem;
+  }
+
+  .home-filters-cont {
+    flex-direction: column;
+    margin-bottom: 20px !important;
+  }
+
+  .near_to_me {
+    margin-top: 20px;
+    /* width: 350px !important; */
+  }
+}
+
+.input_2 {
+  /*width: 140%;*/
+  height: 60px;
+  width: 25%;
+  font-size: 20px;
+  /*margin-left: 10px;*/
+}
+
+.input_3 {
+  /*width: 140%;*/
+  height: 60px;
+  font-size: 20px;
+  width: 25%;
+  /*margin-left: 85px;*/
+}
+
+.search-property {
+  width: 70px;
+  height: 60px;
+  border-radius: 10px;
+  background: black;
+}
+
+.input_2_calender {
+  position: absolute;
+  /*top: 35px;*/
+  /*right: 400px;*/
+  width: 25px;
+  margin-right: 10px;
+}
+
+.input_3_calender {
+  position: absolute;
+  /*top: 35px;
+    right: 100px;*/
+  width: 25px;
+  margin-right: 10px;
+}
+
+.img-over {
+  position: relative;
+  margin: 5px;
+}
+
+.image-overlay {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 10px;
+  z-index: 1;
+  width: 100%;
+  color: white;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2));
+}
+
+.image-overlay p {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 0;
+  padding: 0;
+  margin-left: 20px;
+}
+
+.image-overlay span {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 0;
+  padding: 0;
+  margin-left: 20px;
+}
+
+.masonry {
+  /*height: 500px;*/
+  max-width: 1400px;
+  justify-content: center;
+  align-items: center;
+  /*margin-top: 100px;*/
+}
+
+.location_homepage {
+  font-size: 35px;
+  /* text-align: inherit; */
+  font-weight: 600;
+}
+
+.bottom_text {
+  font-size: 20px;
+}
+
+.top_text {
+  text-align: left;
+}
+
+.home_stay_list {
+  /* background-color: rgb(228, 228, 228); */
+  /*margin-top: 40%;*/
+  /* max-width: 1400px; */
+  width: 100% !important;
+}
+
+.home_stay_list_title {
+  font-size: 40px;
+  font-weight: 600;
+  text-align: initial;
+}
+
+.homeStayList_card {
+  display: grid;
+  justify-content: space-between;
+  padding: 40px;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 40px;
+  width: 100%;
+  /* max-width: 1400px; */
+}
+
+.home-filters {
+  width: 350px;
+
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 800px) {
+  .home-filters {
+    width: 350px;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .homeStayList_card {
+    /* display: grid; */
+    grid-template-columns: 1fr 1fr;
+    /* grid-gap: 40px;
+    width: 100%; */
+    /* max-width: 1400px; */
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .homeStayList_card {
+    /* display: grid; */
+    grid-template-columns: 1fr;
+    /* grid-gap: 40px;
+    width: 100%; */
+    /* max-width: 1400px; */
+  }
+}
+
+.homeStayList_card_main {
+  /*margin: 20px;*/
+  /*height: 375px;*/
+  /*width: 350px;*/
+  width: 100%;
+  /*background-color: #e6e1e1;*/
+  background-color: #fff;
+  border-radius: 17px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 3px 10px rgb(124 124 124);
+  padding: 1em;
+}
+
+.card_img {
+  width: 324px;
+  margin-top: 40px;
+  height: 200px;
+  /* margin-top: 12px; */
+  margin-bottom: auto;
+  border-radius: 15px;
+}
+
+.homepage-card_img {
+  /*width: 324px;*/
+  width: 100%;
+  /*margin-top: 40px;*/
+  height: 34vh;
+  /* margin-top: 12px; */
+  margin-bottom: auto;
+  border-radius: 15px;
+}
+
+.homstay_title {
+  font-size: 50px;
+  font-weight: 600;
+  position: absolute;
+  left: 50px;
+  top: 50px;
+}
+
+.card_property_type {
+  color: #80808099;
+  /*margin-right: 235px;*/
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.card_address {
+  font-size: 22px;
+  font-weight: 600;
+  /*margin-right: 55px;*/
+  /* margin-top: 7px; */
+  /*position: relative;*/
+  bottom: 14px;
+}
+
+.card_abc {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* margin-bottom: 11px; */
+  /*position: relative;*/
+  /*right: 82px;*/
+  /*bottom: 20px;*/
+}
+
+.card_star {
+  display: flex;
+  /*margin-top: 5px;*/
+  flex-direction: row;
+}
+
+.btn_abc {
+  display: flex;
+  flex-direction: row;
+  /*position: relative;*/
+  /*bottom: 33px;*/
+}
+
+.map_img {
+  width: 45px;
+  /* position: relative; */
+  height: 45px;
+  margin-left: 10px;
+  /*margin: 10px;*/
+}
+
+.card_avatar {
+  position: static;
+  bottom: 50px;
+  right: 130px;
+}
+
+.avatar_name {
+  position: relative;
+  bottom: 83px;
+  width: 100px;
+  right: 50px;
+  border-radius: 15px;
+  background-color: rgba(255, 254, 254, 0.4);
+  /* Fallback color */
+  background-color: rgba(255, 255, 255, 0.4);
+  border-color: rgba(111, 111, 111, 0.2) transparent transparent;
+  color: rgb(255, 255, 255);
+}
+
+.filter_button {
+  /*position: relative;*/
+  width: 5rem;
+  margin-right: 10px;
+  /* top: 75px; */
+  /*left: 29%;*/
+  /*bottom: 61px;*/
+}
+
+.filter_text {
+  position: relative;
+  left: 10px;
+}
+
+.filter_class {
+  position: inherit;
+  left: 15px;
+  top: 8px;
+  width: 15px;
+}
+
+.near_to_me {
+  /*position: relative;*/
+  width: 150px;
+  /* top: 75px; */
+  /*left: 29%;*/
+  /*bottom: 61px;*/
+}
+
+.arrow_class {
+  align-self: center;
+  width: 20px;
+}
+
+.successStory {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 330%;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+
+.heading_text {
+  font-size: 45px;
+  font-weight: 700;
+  position: absolute;
+  top: 60px;
+}
+
+.success_story_card {
+  width: 1000px;
+  height: 400px;
+  position: absolute;
+  top: 200px;
+  box-shadow: 0px 23px 32px rgba(0, 0, 0, 0.05);
+}
+
+.success_img {
+  height: 400px;
+}
+
+.card_text {
+  text-align: start;
+  position: relative;
+  left: 60px;
+  width: 500px;
+  top: 80px;
+}
+
+.footer_link {
+  margin-top: 10px;
+  /*padding: 10px;*/
+}
+
+.logo {
+  position: relative;
+  left: 10%;
+}
+
+.our-locations-img {
+  border-radius: 10px;
+}
+
+.homestay-listing-outer-div {
+  background-color: rgb(241, 241, 241);
+}
+
+.footer-logo-img {
+  width: 80%;
+}
+
+.paginationBttns {
+  margin: 0 auto;
+  margin-top: 60px;
+  width: 80%;
+  height: 40px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 800px) {
+  .paginationBttns {
+    display: none;
+  }
+}
+
+.paginationBttns a {
+  padding: 10px;
+  margin: 8px;
+  color: black;
+  border-radius: 5px;
+  border: 1px solid #47af0d;
+  color: #47af0d;
+  cursor: pointer;
+}
+
+.paginationBttns a:hover {
+  color: white;
+  background-color: #47af0d;
+}
+
+.paginationActive {
+  color: white;
+}
+
+.paginationActive a {
+  color: white;
+  background-color: #47af0d;
+}
+
+.paginationDisabled a {
+  color: grey;
+  background-color: grey;
+}

@@ -1,0 +1,71 @@
+.List_Box {
+  height: 100vh;
+  width: 100%;
+  margin: 1rem auto;
+  border-radius: 15px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+}
+
+.setting_item {
+  margin: -5px;
+
+}
+
+.Guest_Request_Notification {
+  text-align: start;
+  font-size: 30px;
+  font-weight: 600;
+  position: relative;
+  top: 30px;
+  left: 40px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .Guest_Request_Notification {
+    text-align: start;
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    top: 30px;
+    left: 40px;
+  }
+
+  .Guest_Request_Notification_text {
+    text-align: start;
+    position: relative;
+    top: 10px;
+    left: 40px;
+    width: 250px;
+  }
+
+  .List_Box {
+    height: 100vh;
+    width: 100%;
+    margin: 1rem auto;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .setting_item {
+    margin: -5px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.Guest_Request_Notification_text {
+  text-align: start;
+  position: relative;
+  top: 10px;
+  left: 40px;
+}
+
+.switch {
+  margin-left: 85%;
+  position: relative;
+  bottom: 70px;
+}

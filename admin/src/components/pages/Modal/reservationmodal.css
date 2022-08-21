@@ -1,0 +1,62 @@
+.reservation_modal_main p {
+  margin: 0;
+}
+
+.reservation_modal_main .modal-content {
+  width: 600px !important;
+  margin: 40px auto !important;
+  /* height: 80vh; */
+}
+.reservation_modal_main .modal-body {
+  /* width: 600px !important; */
+  /* margin: 5px auto !important; */
+  /* height: 80vh; */
+}
+
+.reservation_header {
+  padding: 10px 0;
+  width: 100%;
+  display: flex;
+  border-bottom: 1px gray solid;
+}
+
+.reservation_header img {
+  height: 60px;
+  width: 60px;
+}
+
+.user_details {
+  display: flex;
+  border-bottom: 1px gray solid;
+  padding: 10px 0;
+}
+
+.reservation_modal_main .prop_cont {
+  display: flex;
+  margin: 10px 0;
+}
+.prop_cont img {
+  height: 50px;
+  width: 50px;
+}
+.prop_cont p {
+  font-size: 12px;
+  font-weight: bold;
+}
+.prop_cont span {
+  font-size: 12px;
+}
+.left {
+  border-right: 1px solid gray;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 25px;
+}

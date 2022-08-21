@@ -1,0 +1,117 @@
+.subscription-main {
+  height: max-content;
+  margin: 1rem 0;
+}
+
+.subscritions {
+  width: 80vw;
+  margin: 0 auto;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+}
+
+.subscription-main-second {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 1000px) {
+  .subscription-main-second {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .subscritions {
+    width: 80vw;
+    margin: 0 auto;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .subscription-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 5;
+    background: white;
+    height: 100%;
+    width: 100% !important;
+  }
+
+  .subscription-two {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex: 4;
+    background: black;
+    height: 80%;
+    width: 100% !important;
+  }
+
+  .subscription-one-title {
+    font-size: 20px !important;
+    font-weight: bold !important;
+  }
+}
+
+.subscription-one {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 5;
+  background: white;
+  height: 100%;
+}
+
+.subscription-two {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  flex: 4;
+  background: black;
+  height: 80%;
+}
+
+.subscription-one-title {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.expiry {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.Expiry_Date_class {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.resubscribe {
+  width: 40%;
+  height: 15%;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.unsubscribe {
+  color: lightgray;
+  background: transparent;
+}

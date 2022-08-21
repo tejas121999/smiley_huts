@@ -1,0 +1,112 @@
+.member_main1 {
+  margin: 0 !important;
+}
+
+.user_Table {
+  background-color: rgba(255, 255, 255, 1);
+  border: 2px solid #f0f0f0;
+  border-radius: 25px;
+  height: 70vh;
+  /* width: 750px; */
+  /* position: relative;
+  right: 20px; */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.Top_rated_host {
+  background-color: rgba(255, 255, 255, 1);
+  border: 2px solid #f0f0f0;
+  border-radius: 25px;
+  height: 450px;
+  /* width: 500px; */
+  /* position: relative; */
+  /* right: 70px; */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+/* .tab_class {
+  position: absolute;
+  top: 5px; */
+
+/* bottom: 10px; */
+/* margin-top: 60%; */
+/* margin-right: 260px; */
+/* } */
+
+.table-borderless_campaignsDraft {
+  width: 160%;
+  height: 100px;
+  overflow: auto;
+}
+
+.top_rated_host {
+  /* position: absolute; */
+  /* top: 5px; */
+}
+
+/* .topratedhost {
+  position: absolute;
+  top: 5px;
+} */
+
+.nav-tabs .nav-link:focus,
+.nav-tabs .nav-link:hover {
+  border: none;
+}
+
+.nav-tabs .nav-link,
+.nav-tabs .nav-link {
+  border: none;
+}
+
+.nav-tabs .nav-link.active {
+  font-weight: bold !important;
+}
+
+.nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: #a2a3a5;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+}
+
+.Top_rated_table {
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.43;
+  letter-spacing: 0.01071em;
+  display: table-cell;
+  vertical-align: inherit;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  text-align: left;
+  padding: 16px;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.gestHostedTable tr td {
+  border-bottom: none !important;
+}
+
+.gestHostedTable tr th {
+  border-bottom: none !important;
+}
+
+/* .tabClass, */
+.tab-content {
+  height: 100% !important;
+}
+.tableProfile1 {
+  height: 100vh !important;
+}
+#All_user {
+  height: 100vh;
+}

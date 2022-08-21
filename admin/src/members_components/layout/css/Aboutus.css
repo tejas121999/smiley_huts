@@ -1,0 +1,527 @@
+.card-img-overlay {
+  text-align: center;
+}
+
+.AboutUs {
+  display: flex;
+  flex-direction: column;
+}
+
+.AboutUs .About_Us_img {
+  background-size: cover;
+  position: relative;
+}
+
+.About_us_title {
+  font-size: 40px;
+  position: absolute;
+  bottom: 10%;
+  left: 0;
+  right: 0;
+}
+
+.Simpe_Homes_Platform {
+  display: flex;
+  margin: 0 auto;
+  height: 350px;
+
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.Simpe_Homes_Platform_text {
+  font-size: 30px;
+  font-weight: 600;
+  /* width: 60vw; */
+}
+
+.Simpe_Homes_Platform_man_text {
+  width: 60vw;
+  /* margin-top: 85px; */
+  /* width: 70%; */
+  /* margin-left: 235px; */
+}
+
+.about-us-one {
+  width: 90vw;
+  margin: 0 auto;
+}
+
+.What_We_Do {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #000000;
+  height: 350px;
+  /* margin-bottom: 20px;
+   */
+  margin: 20px;
+}
+
+
+.zoom {
+  /* padding: 50px; */
+  /* background-color: green; */
+  transition: transform .2s;
+  /* width: 200px; */
+  /* height: 200px; */
+  /* margin: 0 auto; */
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.2);
+  /* IE 9 */
+  -webkit-transform: scale(1.2);
+  /* Safari 3-8 */
+  transform: scale(1.2);
+}
+
+@media only screen and (max-width: 650px) {
+  .What_We_Do {
+    height: 450px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .What_We_Do {
+    height: 550px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .What_We_Do {
+    height: 600px;
+  }
+}
+
+.What_We_Do_head {
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 10px;
+  color: #f6f6f6;
+}
+
+.what-text {
+  margin: 20px;
+}
+
+.What_We_Do_Text {
+  width: 70%;
+  color: #f6f6f6;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 1000px) {
+  .What_We_Do_Text {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .What_We_Do_Text {
+    width: 90%;
+  }
+}
+
+.mission_vision {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 450px;
+  margin: 20px;
+}
+
+@media only screen and (max-width: 850px) {
+  .mission_vision {
+    flex-direction: column;
+    height: 600px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .mission_vision {
+    flex-direction: column;
+    height: 700px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .mission_vision {
+    flex-direction: column;
+    height: 800px;
+  }
+}
+
+.mission {
+  background-color: rgb(241, 241, 241);
+  flex: 1;
+  height: 100%;
+  margin-right: 40px;
+}
+
+.mission-vision-main {
+  height: 80vh;
+  background: white;
+}
+
+.about-us-two {
+  background: rgb(241, 241, 241);
+}
+
+.vision {
+  flex: 1;
+  background-color: rgb(241, 241, 241);
+  height: 100%;
+}
+
+.mission-text {
+  margin: 20px;
+}
+
+.vision-text {
+  margin: 20px;
+}
+
+.mission_title {
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.mission_body {
+  font-size: 15px;
+  font-weight: 600;
+  text-align: justify;
+}
+
+.vision_title {
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 10px;
+  color: rgb(0, 0, 0);
+}
+
+.vision_body {
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  font-weight: 600;
+  text-align: justify;
+}
+
+.We_Help_Our_Members {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.We_Help_Our_Members_title {
+  font-size: 30px;
+  font-weight: 600;
+  /* margin-top: 80px; */
+}
+
+.We_Help_Our_Members_card {
+  margin: 0 auto;
+  display: flex;
+  height: max-content;
+  justify-content: center;
+  align-items: center;
+  width: 70vw;
+}
+
+.Find_Home {
+  flex: 1;
+  color: white;
+  font-size: 25px;
+  height: 350px;
+  width: 300px;
+  margin: 15px;
+  background-color: black;
+}
+
+.Reduce {
+  flex: 1;
+  color: white;
+  font-size: 25px;
+  height: 350px;
+  width: 300px;
+  margin: 15px;
+  background-color: gray;
+}
+
+.Relation {
+  flex: 1;
+  color: white;
+  font-size: 25px;
+  height: 350px;
+  width: 300px;
+  margin: 15px;
+  background-color: black;
+}
+
+@media only screen and (max-width: 850px) {
+  .We_Help_Our_Members_card {
+    flex-direction: column;
+    height: 1200px;
+  }
+
+  .Reduce,
+  .Find_Home,
+  .Relation {
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+
+  .Reduce,
+  .Find_Home,
+  .Relation {
+    width: 45%;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+
+  .Reduce,
+  .Find_Home,
+  .Relation {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+
+  .Reduce,
+  .Find_Home,
+  .Relation {
+    width: 55%;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+
+  .Reduce,
+  .Find_Home,
+  .Relation {
+    width: 65%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .We_Help_Our_Members_card {
+    width: 80vw;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .We_Help_Our_Members_card {
+    width: 90vw;
+  }
+}
+
+.Find_Home_text {
+  text-align: initial;
+  margin-top: 90px;
+  font-weight: 600;
+  margin-left: 20px;
+}
+
+.Reduce_text {
+  text-align: initial;
+  margin-top: 90px;
+  font-weight: 600;
+  margin-left: 20px;
+}
+
+.Relation_text {
+  text-align: initial;
+  margin-top: 90px;
+  font-weight: 600;
+  margin-left: 20px;
+}
+
+.circle {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  border: 5px dotted #fff;
+}
+
+.ourStoryText {
+  /* background-color: rgb(255, 255, 255); */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 50px;
+  flex: 1;
+}
+
+.ourStory {
+  display: flex;
+  margin-top: 90px;
+  /* height: 500px; */
+  width: 100%;
+}
+
+@media only screen and (max-width: 800px) {
+  .ourStory {
+    flex-direction: column;
+    height: 800px;
+  }
+}
+
+.our_story_img {
+  /* height: 450px; */
+  flex: 1;
+  /* width: 50%; */
+}
+
+.ourStoryImg {
+  height: 100%;
+  width: 100%;
+}
+
+.ourStory_title {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.ourStory_body {
+  font-size: 19px;
+  font-weight: 600;
+  text-align: justify;
+}
+
+@media only screen and (max-width: 1200px) {
+  .ourStory_title {
+    font-size: 35px;
+  }
+
+  .ourStory_body {
+    font-size: 17px;
+    font-weight: 600;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .ourStory_title {
+    font-size: 30px;
+  }
+
+  .ourStory_body {
+    font-size: 15px;
+    font-weight: 600;
+  }
+}
+
+/* .Join_us_Today {
+  width: 180px;
+  height: 80px;
+  color: black;
+} */
+
+.Success_story {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80vw;
+  margin: 0 auto;
+  align-items: center;
+  margin-bottom: 100px;
+  /*box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);*/
+}
+
+.Success_Story_Title {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.Success_Story_card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.story_text {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 400px;
+  text-align: inherit;
+}
+
+.story_img {
+  width: 100%;
+  /*background-repeat: no-repeat;*/
+  /*background-size: contain;*/
+  height: 400px;
+  /*background-image: url('../../layout/images/SMILEY HUTS USER SIDE ICONS AND IMAGES/restimonial.png');*/
+}
+
+.story_text_body {
+  margin-top: 69px;
+  /* width: 630px; */
+  text-align: initial;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 17px;
+}
+
+.story_text_name {
+  font-size: 20px;
+  font-weight: 600;
+  /* margin-right: 58%; */
+  text-align: initial;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 17px;
+}
+
+.story_text_Location {
+  font-size: 15px;
+  /* margin-right: 70.5%;
+     */
+  text-align: initial;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 17px;
+}
+
+.story_img_body {
+  height: 400px;
+  width: 100%;
+}
+
+@media only screen and (max-width: 1000px) {
+  .Simpe_Homes_Platform_man_text {
+    width: 70vw;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .Simpe_Homes_Platform_man_text {
+    width: 80vw;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .Simpe_Homes_Platform {
+    height: 400px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .Simpe_Homes_Platform {
+    height: 450px;
+  }
+}

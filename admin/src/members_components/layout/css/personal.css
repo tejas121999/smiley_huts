@@ -1,0 +1,93 @@
+.personal-main {
+  height: max-content;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.first-last {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  margin: 1rem 0;
+  padding: 0;
+}
+
+@media only screen and (max-width: 500px) {
+  .first-last {
+    flex-direction: column;
+  }
+  .first-last input {
+    width: 100% !important;
+  }
+  .firstname {
+    margin-bottom: 20px;
+  }
+}
+
+.personal-main input {
+  border-radius: 5px;
+  justify-content: space-around;
+  height: 4rem;
+  width: 100%;
+  border: none;
+  background: rgb(241, 241, 241);
+}
+
+.personal-main input::placeholder {
+  color: rgb(68, 67, 67);
+  font-size: 20px;
+  padding-left: 10px;
+}
+.personal-main input:focus {
+  outline: 5px lightblue solid;
+}
+
+.personal-main textarea::placeholder {
+  color: rgb(68, 67, 67);
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+.personal-main textarea {
+  background: rgb(241, 241, 241);
+  height: 8rem;
+  border: none;
+  width: 100%;
+}
+
+.area {
+  margin: 0;
+  margin: 1rem 0;
+  padding: 0;
+}
+
+.personal-main textarea:focus {
+  outline: 5px lightblue solid;
+}
+
+.first-last input {
+  width: 95%;
+}
+
+.identification {
+  margin: 0;
+  padding: 0;
+}
+
+.firstname {
+  flex: 1;
+  display: flex;
+  justify-content: start;
+}
+.lastname {
+  flex: 1;
+  display: flex;
+  justify-content: end;
+}
+
+.contact {
+  margin: 0;
+  margin-bottom: 1rem;
+  padding: 0;
+}

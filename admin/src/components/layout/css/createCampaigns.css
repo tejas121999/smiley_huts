@@ -1,0 +1,329 @@
+.create_campa {
+  width: 90%;
+  height: 100%;
+  background: white;
+  margin: 0 auto;
+  padding: 2rem;
+  box-shadow: 0px 23px 32px rgba(5, 51, 112, 0.05);
+}
+
+.radio-label {
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.campaign-input {
+  width: 100%;
+  height: 60px;
+  background: rgb(241, 241, 241);
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+.campaign-input::placeholder {
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+.campaign-title {
+  margin-top: 20px;
+  color: gray;
+}
+
+.users {
+  display: flex;
+  width: 100%;
+}
+
+.name {
+  flex: 1;
+}
+
+.email {
+  flex: 1;
+  display: flex;
+  justify-content: start;
+}
+.hosted {
+  flex: 1;
+  display: flex;
+  justify-content: end;
+}
+.bookings {
+  flex: 1;
+  display: flex;
+  justify-content: end;
+}
+.editor,
+.sun-editor {
+  width: 100% !important;
+}
+
+.progressBar {
+  width: max-content;
+  margin-bottom: 40px !important;
+}
+
+.user-checkbox {
+  display: flex;
+  justify-content: end;
+  flex: 1;
+}
+
+.search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  width: 35%;
+  padding-right: 20px;
+  border-radius: 5px;
+  background: rgb(241, 241, 241);
+  margin-bottom: 20px;
+}
+
+.search input {
+  border: none;
+  background: rgb(241, 241, 241);
+}
+
+.search input::placeholder {
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+/* .select {
+  height: max-content;
+}
+
+.create_campa {
+  background-color: rgba(255, 255, 255, 1);
+  border: 2px solid #f0f0f0;
+  border-radius: 25px;
+  border-width: 100px;
+  height: max-content;
+  width: 100%;
+  max-width: 1301px;
+  box-shadow: 0px 23px 32px rgba(5, 51, 112, 0.05);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  left: 5%;
+  bottom: 15px;
+  width: 50%;
+}
+
+.CreateCamapigns_title {
+  font-weight: 600;
+  font-size: 20px;
+  position: absolute;
+  top: 20px;
+  left: 50px;
+}
+
+.save_draft {
+  position: absolute;
+  top: 15px;
+  right: 50px;
+}
+
+.progressBar {
+  position: absolute;
+  top: 70px;
+}
+
+.camp_title {
+  border-color: white;
+  font-size: 20px;
+  font-weight: 600;
+  position: absolute;
+  top: 100px;
+  left: 40px;
+  width: 300px;
+  color: black;
+}
+
+.Select_Recipients {
+  font-weight: 600;
+  position: absolute;
+  top: 150px;
+  left: 52px;
+  font-size: 20px;
+}
+
+.create_campaigns_tab {
+  position: absolute;
+  top: 190px;
+  left: 40px;
+}
+
+.Create_Camp_content {
+  position: relative;
+  left: 15px;
+}
+
+.next-button {
+  position: absolute;
+  bottom: 30px;
+
+  right: 50px;
+}
+
+.prev-button {
+  position: absolute;
+  bottom: 30px;
+  left: 60px;
+}
+
+.CustomSelectionTable {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  width: 1000px;
+  max-height: 300px;
+  position: relative;
+  overflow: auto;
+  top: 50px;
+}
+
+.single_check {
+  position: absolute;
+  left: 50px;
+  top: 160px;
+}
+
+.multiple_check {
+  position: absolute;
+  left: 50px;
+  top: 190px;
+}
+
+.Email_card {
+  background-color: rgb(218, 215, 215);
+  border: 2px solid #f0f0f0;
+  border-radius: 5px;
+  height: 80px;
+  width: 220px;
+  position: absolute;
+  left: 30px;
+  top: 220px;
+}
+
+.number_email {
+  background-color: rgb(0, 0, 0);
+  border: 2px solid #000000;
+  border-radius: 5px;
+  height: 25px;
+  width: 35px;
+  color: #f0f0f0;
+  text-align: center;
+}
+
+.email_name {
+  position: absolute;
+  left: 40px;
+  top: 2px;
+}
+
+.email_body {
+  background-color: rgb(255, 254, 254);
+  border: 2px solid #d8d8d8;
+  border-radius: 5px;
+  height: 40px;
+  width: 210px;
+  position: absolute;
+  left: 4px;
+  top: 30px;
+}
+
+.wait_number {
+  border: 2px solid #d8d8d8;
+  border-radius: 5px;
+  width: 25px;
+  text-align: center;
+  position: absolute;
+  left: 35px;
+  bottom: 8px;
+}
+
+.days {
+  position: absolute;
+  width: 130px;
+  left: 75px;
+  top: 35px;
+}
+
+.add_Email {
+  position: absolute;
+  left: 30px;
+  top: 310px;
+  width: 177px;
+}
+
+.editor {
+  position: absolute;
+  left: 20%;
+  top: 25%;
+}
+
+.schedule_Type {
+  position: absolute;
+  top: 120px;
+  left: 55px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.Schedule_check {
+  position: absolute;
+  top: 180px;
+  left: 70px;
+}
+
+.Future_check {
+  position: absolute;
+  top: 180px;
+  left: 280px;
+}
+
+.topTitle {
+  position: absolute;
+  top: 35%;
+  right: 80%;
+}
+
+.Recipients {
+  font-weight: 600;
+}
+
+.Email_Type {
+  font-weight: 600;
+}
+
+.immediately_table {
+  max-height: 40%;
+  width: 90%;
+  overflow: auto;
+  position: absolute;
+  top: 45%;
+  left: 50px;
+}
+
+.date {
+  height: 50px;
+  width: 350px;
+  background-color: rgb(228, 227, 227);
+  position: absolute;
+  top: 200px;
+  left: 450px;
+}
+
+.icon-calendar {
+  position: absolute;
+  top: 50%;
+  left: 750px;
+} */

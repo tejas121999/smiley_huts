@@ -1,0 +1,141 @@
+.stay-details-slider-main {
+  padding: 20px;
+  height: 500px !important;
+  border-radius: 10px;
+  height: max-content;
+  background: white;
+  width: 350px;
+}
+
+@media only screen and (max-width: 900px) {
+  .stay-details-slider-main {
+    /* padding: 20px;
+    height: 500px !important;
+    border-radius: 10px;
+    height: max-content;
+    background: white; */
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .stay-details-slider-main {
+    /* padding: 20px;
+    height: 500px !important;
+    border-radius: 10px;
+    height: max-content;
+    background: white; */
+    width: 400px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .stay-details-slider-main {
+    /* padding: 20px;
+    height: 500px !important;
+    border-radius: 10px;
+    height: max-content;
+    background: white; */
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .stay-details-slider-main {
+    /* padding: 20px;
+    height: 500px !important;
+    border-radius: 10px;
+    height: max-content;
+    background: white; */
+    width: 310px;
+  }
+}
+
+.stay-details-slider-main h1 {
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.stay-details-slider-main p {
+  /* font-size: px; */
+  font-weight: 500;
+  color: rgb(185, 184, 184);
+  padding: 0;
+  margin: 0;
+}
+
+.stay-details-slider-main img {
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.stay-details-slider-main .see-details {
+  /* margin-top: 20px; */
+  /* background: black; */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  width: 80%;
+  height: 50px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.home-stay-slider {
+  /* height: max-content !important; */
+}
+
+.map_img {
+  height: 50px;
+  border-radius: 10px;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.relative-img {
+  position: relative;
+  height: 300px;
+}
+
+.relative-img img {
+  height: 100%;
+}
+
+.profile-img {
+  bottom: 20px;
+  left: 10px;
+  position: absolute;
+  border-radius: 9999px;
+}
+
+.profile-img span {
+  padding: 0 10px;
+  text-align: center;
+  color: white;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
+.button-container {
+  margin-top: 20px;
+}
+
+.button-container img {
+  border-radius: 10px;
+  height: 50px;
+  width: 50px;
+  margin: 0;
+  padding: 0;
+}
+
+.profile-img img {
+  margin-right: 10px;
+  border-radius: 9999px;
+  border: 2px solid white;
+  height: 40px;
+  width: 40px;
+}

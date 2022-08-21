@@ -1,0 +1,394 @@
+.grey-background {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.grey-background-profile {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 800px) {
+  /* .grey-background {
+    padding: 30px 50px;
+
+  }
+
+  .mobile-responsive-tab-ui {
+    display: block !important;
+  } */
+}
+
+@media only screen and (max-width: 700px) {
+  /* .grey-background {
+    display: none;
+
+  }
+
+  .mobile-responsive-tab-ui {
+    display: block !important;
+  } */
+}
+
+.tabs .selected-profile {
+  color: #000000;
+  font-size: 40px;
+}
+
+@media only screen and (max-width: 900px) {
+  .mobile-responsive-tabs ul li {
+    color: black;
+    font-size: 15px !important;
+    color: rgb(191, 188, 188);
+  }
+
+  .tabs .selected-profile {
+    color: black !important;
+    font-size: 25px !important;
+  }
+
+  .tabs .mobile-responsive-ul {
+    /* grid-template-columns: 1fr 1fr 1fr;
+    display: grid; */
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+  }
+
+  .mobile-responsive-ul li {
+    margin: 10px;
+  }
+
+}
+
+
+
+.tabs ul {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+}
+
+.passwordInput {
+  border-radius: 5px;
+  justify-content: space-around;
+  height: 4rem;
+  width: 100%;
+  border: none;
+  background: rgb(241, 241, 241);
+}
+
+.passwordInput::placeholder {
+  color: rgb(68, 67, 67);
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+.changePasswordButton {
+  margin-top: 20px;
+  height: 60px;
+  width: 200px;
+  background: black;
+  color: white;
+}
+
+/* .profile {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+}
+
+.nav-tabs {
+  background-color: transparent;
+}
+
+.nav-tabs .nav-link:focus,
+.nav-tabs .nav-link:hover {
+  border: none;
+}
+
+.nav-tabs .nav-link,
+.nav-tabs .nav-link {
+  border: none;
+}
+
+.nav-tabs .nav-link.active {
+  font-weight: bold !important;
+  background-color: transparent;
+  font-size: 30px;
+}
+
+.nav_text {
+  font-size: 30px;
+}
+
+.nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: #a2a3a5;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+}
+
+.profile_img {
+  background-color: rgb(240, 240, 240);
+  height: 440px;
+  width: 75%;
+  margin-top: 20px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.profileImgClass {
+  border-radius: 200px;
+  width: 300px;
+  height: 300px;
+  margin-top: 20px;
+}
+
+.card_profile {
+  background-color: rgb(255, 255, 255);
+  height: 440px;
+  width: 75%;
+  margin-top: 20px;
+  border-radius: 15px;
+  align-items: center;
+}
+
+.edit_button {
+  height: 60px;
+  width: 60px;
+  position: relative;
+  bottom: 20px;
+  border-color: 2px solid aliceblue;
+}
+
+.remove_pick {
+  font-size: 20px;
+  position: relative;
+  bottom: 20px;
+  text-decoration: underline;
+  color: gray;
+}
+
+.change_pass {
+  height: 70px;
+  width: 360px;
+  margin-right: 135px;
+  border-radius: 15px;
+  margin-top: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.card_detais {
+  background-color: rgb(255, 255, 255);
+  height: 570px;
+  width: 90%;
+  margin-top: 20px;
+  border-radius: 15px;
+  align-items: center;
+  position: relative;
+  right: 135px;
+}
+
+.nav_man {
+  background-color: rgb(240, 240, 240) transparent;
+}
+
+.nav_tab_card {
+  padding-right: 480px;
+  width: 100%;
+  position: relative;
+  right: 20px;
+  bottom: 20px;
+}
+
+.first_name {
+  width: 200%;
+  height: 60px;
+  margin-top: 10px;
+  background-color: #e8e8ea;
+}
+
+.Last_name {
+  width: 200%;
+  margin-left: 100%;
+  height: 60px;
+  margin-top: 10px;
+  background-color: #e8e8ea;
+}
+
+.address_Cslaa {
+  width: 195%;
+  margin-top: 20px;
+  height: 100%;
+  background-color: #e8e8ea;
+}
+
+.contact_number {
+  margin-top: 40px;
+  width: 195%;
+  height: 60px;
+  background-color: #e8e8ea;
+}
+
+.Id_Proof {
+  margin-top: 20px;
+  width: 195%;
+  height: 60px;
+  background-color: #e8e8ea;
+}
+
+.first_name::-webkit-input-placeholder {
+  font-size: 20px;
+  line-height: 3;
+}
+
+.Last_name::-webkit-input-placeholder {
+  font-size: 20px;
+  line-height: 3;
+}
+
+.address_Cslaa::-webkit-input-placeholder {
+  font-size: 20px;
+  line-height: 3;
+}
+
+.contact_number::-webkit-textarea-placeholder {
+  font-size: 20px;
+  line-height: 3;
+}
+
+.Save_button {
+  margin-left: 95%;
+  position: relative;
+  bottom: 60px;
+}
+
+.tab_content {
+  position: relative;
+  bottom: 40px;
+  left: 15px;
+}
+
+.image_uplode {
+  width: 100px;
+  height: 65px;
+  margin-top: 10px;
+  position: relative;
+  right: 367px;
+}
+
+.image_uplode::-webkit-input-placeholder {
+  font-size: 15px;
+  line-height: 3;
+}
+
+.profile_home_img {
+  width: 100px;
+  margin-top: 10px;
+  margin-right: 351px;
+}
+
+.property_type {
+  margin-top: 10px;
+  width: 195%;
+  height: 60px;
+  background-color: #e8e8ea;
+}
+
+.property_address_Cslaa {
+  width: 195%;
+  margin-top: 10px;
+  height: 100%;
+  background-color: #e8e8ea;
+}
+
+.street_name {
+  width: 200%;
+  height: 60px;
+  margin-top: 20px;
+  background-color: #e8e8ea;
+}
+
+.pin_code {
+  width: 200%;
+  height: 60px;
+  margin-top: 20px;
+  background-color: #e8e8ea;
+  position: relative;
+  left: 225px;
+}
+
+.select_class {
+  width: 200%;
+  height: 60px;
+  margin-top: 10px;
+  background-color: #e8e8ea;
+}
+
+.Fam_total_number {
+  width: 200%;
+  height: 60px;
+  margin-top: 10px;
+  background-color: #e8e8ea;
+}
+
+.members_list {
+  width: 200%;
+  height: 60px;
+  background-color: #e8e8ea;
+  margin-left: 1px;
+  margin-top: 15px;
+}
+
+.members_img {
+  width: 50px;
+  margin-right: 95%;
+  margin-top: 2px;
+}
+
+.relation_input1 {
+  width: 380px;
+  height: 50px;
+  margin-top: 5px;
+  position: relative;
+  right: 220px;
+}
+
+.relation_input2 {
+  width: 380px;
+  height: 50px;
+  margin-top: 5px;
+  position: relative;
+  right: 150px;
+}
+
+.famaly_text {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.Add_member_button {
+  width: 500px;
+}
+
+.Add_More {
+  width: 200%;
+  height: 50px;
+  background-color: #e8e8ea;
+  margin-left: 1px;
+  margin-top: 10px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+} */

@@ -1,0 +1,26 @@
+.paypal-modal-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.paypal-modal-class {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #efefef;
+    margin: 10px;
+    height: 200px;
+    width: 180px;
+}
+
+.paypal-modal-inner-class {
+    display: flex;
+    flex-direction: column;
+}
+
+.title-text {
+    text-align: center;
+}

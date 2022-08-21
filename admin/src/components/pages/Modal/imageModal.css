@@ -1,0 +1,23 @@
+.image-model-main {
+  border-radius: 5px;
+  /* height: 1000px;
+  width: 70vw; */
+  /* top: 30vh; */
+  /* left: 50%; */
+  /* transform: translate(-50%, 0); */
+  background: white;
+  /* position: absolute; */
+  /* z-index: 1; */
+  text-align: center;
+  /* margin-top: 30px; */
+}
+
+.modal-content {
+  /* height: 1000px; */
+  width: 1000px;
+}
+
+/* .image-model-main img { */
+.slider-wrapper {
+  height: 400px;
+}

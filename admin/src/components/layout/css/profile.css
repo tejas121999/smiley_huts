@@ -1,0 +1,37 @@
+.profile_modal {
+    width: 800px;
+    height: 700px;
+    /* max-width: none; */
+    /* position: relative; */
+    background-color: rgba(255, 255, 255, 1);
+    border: 2px solid #F0F0F0;
+    top: 45px;
+    left: 342px;
+}
+
+.profileImg {
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+    position: relative;
+    left: 15px;
+    bottom: 10px
+}
+
+.profileName {
+    position: relative;
+    left: 100px;
+    font-size: 30px;
+    font-weight: 600;
+    bottom: 60px;
+}
+
+.pet_img {
+    width: 15%;
+}
+
+.pet_famaly {
+    position: relative;
+    bottom: 75px;
+    left: 10px;
+}

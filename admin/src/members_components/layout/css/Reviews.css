@@ -1,0 +1,201 @@
+.review_Ratings {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+@media only screen and (max-width: 900px) {
+    .review_Ratings {
+        display: flex;
+        flex-direction: column !important;
+    }
+}
+
+.review_top_class {
+    background-color: rgb(253, 253, 253);
+    /*margin: 15px;
+    width: 25%;
+    height: 250px;*/
+    border-radius: 15px;
+}
+
+.review_top_class1 {
+    background-color: rgb(253, 253, 253);
+    margin: 15px;
+    width: 30%;
+    height: 250px;
+    border-radius: 15px;
+}
+
+.avg_rating {
+    font-size: 30px;
+    font-weight: 600;
+    /*margin-right: 150px;*/
+    /*position: relative;*/
+    /*top: 20px*/
+}
+
+.avg_point {
+    font-size: 80px;
+    font-weight: 600;
+    /*margin-right: 230px;
+    position: relative;
+    top: 20px*/
+}
+
+.review_star {
+    font-size: 30px;
+    font-weight: 600;
+    /*margin-right: 180px;
+    position: relative;
+    top: 20px*/
+}
+
+.total_rating {
+    font-size: 30px;
+    font-weight: 600;
+    /*margin-right: 150px;
+    position: relative;
+    top: 20px*/
+}
+
+.total_rat_number {
+    font-size: 80px;
+    font-weight: 600;
+    /*margin-right: 180px;
+    position: relative;
+    top: 60px*/
+}
+
+.progress_class {
+    margin-top: 15px;
+}
+
+.Rating_class {
+    font-size: 30px;
+    font-weight: 600;
+    /*position: relative;
+    top: 15px*/
+}
+
+.S_class {
+    font-size: 30px;
+    font-weight: 600;
+    /*position: relative;
+    top: 15px*/
+}
+
+.progress {
+    /*margin: -8px;
+    width: 250px;
+    height: 10px;*/
+}
+
+.progress_point {
+    /*position: relative;
+    right: 190px;*/
+    /*top: 10px;*/
+    font-weight: 600;
+    margin-right: 5px;
+}
+
+.progress_rating {
+    /*position: relative;
+    left: 100px;
+    bottom: 10px;*/
+    font-weight: 600;
+}
+
+.Review_And_Ratings {
+    font-size: 45px;
+    font-weight: 650;
+    /*margin-right: 70%;*/
+}
+
+.Review_And_Ratings_class {
+    display: flex;
+    flex-direction: column;
+}
+
+.review_comment_class {
+    background-color: rgb(253, 253, 253);
+    /*margin: 15px;*/
+    /*width: 84%;*/
+    /*height: 170px;*/
+    border-radius: 15px;
+}
+
+.comment_img {
+    width: 70px;
+    border-radius: 5px;
+    /*margin-top: 26px;
+    margin-right: 90%;*/
+}
+
+.comment_sample_name {
+    /*margin-right: 72%;*/
+    /*position: relative;*/
+    /*bottom: 70px;*/
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.comment_star {
+    /*margin-right: 77%;
+    position: relative;
+    bottom: 80px;*/
+}
+
+.time_date {
+    /*position: relative;
+    left: 210px;
+    bottom: 105px;*/
+    /*width: 130px;*/
+}
+
+.review_time_date {
+    background-color: rgb(236, 234, 234);
+    margin-left: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 0px 5px;
+}
+
+.comment_text {
+    /*position: relative;
+    bottom: 90px;*/
+    /*width: 1300px;*/
+    /*left: 25px;*/
+}
+
+.review_top_card_div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+}
+
+@media only screen and (max-width: 900px) {
+    .review_top_card_div {
+        display: flex;
+        flex-direction: column;
+
+    }
+}
+
+.review_top_card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 1em;
+    margin-top: 10px;
+}
+
+.review_rating_card {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    height: 100%;
+}
+
+.rating_progress_bar {
+    margin-right: 5px;
+}

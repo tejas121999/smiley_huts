@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="63" height="63" viewBox="0 0 63 63">
+  <defs>
+    <clipPath id="clip-path">
+      <circle id="Ellipse_35" data-name="Ellipse 35" cx="31.5" cy="31.5" r="31.5" transform="translate(669 303)" fill="#efefef"/>
+    </clipPath>
+  </defs>
+  <g id="Group_4816" data-name="Group 4816" transform="translate(-10988 -3734)">
+    <g id="Mask_Group_33" data-name="Mask Group 33" transform="translate(10319 3431)" clip-path="url(#clip-path)">
+      <g id="facebook-svgrepo-com" transform="translate(669 303)">
+        <path id="Path_3373" data-name="Path 3373" d="M31.5,0A31.5,31.5,0,1,1,0,31.5,31.5,31.5,0,0,1,31.5,0Z" fill="#3b5998"/>
+        <path id="Path_3374" data-name="Path 3374" d="M40.205,24.923h4.06v-6H39.493v.022c-5.782.2-6.967,3.455-7.072,6.869h-.012v2.995H28.472v5.873h3.937V50.426h5.934V34.684H43.2l.939-5.873h-5.8V27A1.934,1.934,0,0,1,40.205,24.923Z" transform="translate(-4.87 -3.237)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>
